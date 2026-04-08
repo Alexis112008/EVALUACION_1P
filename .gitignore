@@ -1,0 +1,9 @@
+# Ignorar todos los archivos .log
+*.log
+
+# Ignorar carpeta temp/
+temp/
+
+# Ignorar .md y .txt dentro de doc/
+doc/*.md
+doc/*.txt
