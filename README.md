@@ -92,7 +92,6 @@ del usuario personal y no al del profesor.
 
 **📝 Respuesta:**
 
-📝 Respuesta:
 
 ### ¿Qué es el archivo .gitignore?
 El archivo `.gitignore` le indica a Git qué archivos o carpetas debe ignorar
@@ -141,7 +140,43 @@ rastreados, como se evidencia en el git status --ignored.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
+### Comandos utilizados con Git Flow
+
+```bash
+# 1. Inicializar Git Flow
+git flow init
+
+# 2. Crear la rama feature
+git flow feature start ingresar-encabezado
+
+# 3. Commit durante el desarrollo
+git add README.md
+git commit -m "Pregunta 3: Completar encabezado con datos personales"
+
+# 4. Finalizar la feature
+git flow feature finish ingresar-encabezado
+```
+
+### Descripción del proceso
+- `git flow init`: Inicializa el repositorio con la estructura de Git Flow,
+  definiendo main como rama de producción y develop como rama de desarrollo.
+- `git flow feature start ingresar-encabezado`: Crea una rama llamada
+  feature/ingresar-encabezado a partir de develop para trabajar de forma aislada.
+- Los cambios se realizan con commits normales dentro de la rama feature.
+- `git flow feature finish ingresar-encabezado`: Fusiona la rama feature
+  en develop y la elimina automáticamente.
+
+### Ventajas de Git Flow
+Git Flow organiza el trabajo en ramas bien definidas, permitiendo que varios
+desarrolladores trabajen en paralelo sin interferirse. En proyectos largos
+mantiene versiones estables en main mientras el desarrollo continúa en develop,
+reduciendo errores en producción y facilitando el manejo de versiones.
+
+### Evidencia
+![Git Flow init](images/p3-init.png)
+![Feature start](images/p3-feature-start.png)
+![Feature finish](images/p3-feature-finish.png)
 
 ---
 
