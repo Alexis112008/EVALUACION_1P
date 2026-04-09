@@ -224,6 +224,11 @@ cumplen con los estándares del proyecto antes de afectar la versión estable.
 - Que la documentación esté actualizada
 - Que los commits sean claros y descriptivos
 
+### Respuesta segunda pregunta del PR
+La revisión de un PR es importante porque garantiza que el código nuevo no
+introduzca errores en la rama principal. Permite que el equipo valide la
+lógica, el estilo y la funcionalidad antes de hacer el merge.
+
 ---
 
 ## Pregunta 5 (2 puntos)
