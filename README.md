@@ -206,7 +206,33 @@ reduciendo errores en producción y facilitando el manejo de versiones.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+
+### ¿Qué es un Pull Request?
+Un Pull Request (PR) es una solicitud para integrar los cambios de una rama
+en otra dentro de GitHub. Permite que otros colaboradores revisen el código
+antes de fusionarlo, facilitando la revisión y el control de calidad en equipos.
+
+### ¿Por qué es importante revisarlo antes de fusionar?
+Revisar un PR evita introducir errores o código incompleto en la rama principal.
+Permite detectar bugs, mejorar la calidad del código y asegurar que los cambios
+cumplen con los estándares del proyecto antes de afectar la versión estable.
+
+### ¿Qué se valida en una revisión?
+- Que el código funcione correctamente
+- Que siga las convenciones de estilo del proyecto
+- Que no rompa funcionalidades existentes
+- Que la documentación esté actualizada
+- Que los commits sean claros y descriptivos
+
+### Respuesta segunda pregunta del PR
+La revisión de un PR es importante porque garantiza que el código nuevo no
+introduzca errores en la rama principal. Permite que el equipo valide la
+lógica, el estilo y la funcionalidad antes de hacer el merge.
+
+### Respuesta tercera pregunta del PR
+Durante la revisión de un PR se validan aspectos como: corrección del código,
+cumplimiento de estándares, que no se rompan funcionalidades existentes,
+claridad de los commits y que la documentación esté actualizada.
 
 ---
 
