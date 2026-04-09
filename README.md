@@ -1,10 +1,10 @@
-# Universidad [Nombre de la Universidad]  
-## Facultad de [Nombre de la Facultad]  
-### Carrera de [Nombre de la Carrera]  
+# Universidad TECNICA DE AMBATO
+## Facultad de Ingeneria en Sistemas, Electronica e industrial 
+### Carrera de Software 
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Alexis Nata 
+**Fecha:** 8/4/2026
 
 ---
 
@@ -92,7 +92,26 @@ del usuario personal y no al del profesor.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+📝 Respuesta:
+
+### ¿Qué es el archivo .gitignore?
+El archivo `.gitignore` le indica a Git qué archivos o carpetas debe ignorar
+y no rastrear en el control de versiones. Es útil para excluir archivos
+temporales, logs, credenciales o dependencias que no deben subirse al repositorio.
+
+### Reglas configuradas
+- `*.log` → ignora todos los archivos con extensión .log
+- `temp/` → ignora toda la carpeta temp/ y su contenido
+- `doc/*.md` y `doc/*.txt` → ignora archivos .md y .txt solo dentro de doc/
+
+### Verificación
+Los archivos `prueba.md` y `prueba.txt` en la raíz SÍ son rastreados por Git
+(aparecen en git ls-files) porque están fuera de la carpeta `doc/`.
+Los archivos dentro de `doc/`, la carpeta `temp/` y `sistema.log` NO son
+rastreados, como se evidencia en el git status --ignored.
+
+### Evidencia
+![Git status](images/p2-gitstatus.png)
 
 ---
 
