@@ -291,4 +291,30 @@ claridad de los commits y que la documentación esté actualizada.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 6 -->
+
+### Proceso realizado
+1. Se eliminó archivoA.txt desde la rama develop usando `git rm`
+2. Se hizo merge de develop hacia main localmente
+3. Se subieron los cambios y todos los tags al repositorio remoto
+4. Se creó un Pull Request desde la rama develop del fork hacia el
+   repositorio original del profesor
+
+### Versionamiento Semántico (SemVer)
+El versionamiento semántico es un estándar para nombrar versiones de software
+con el formato: MAJOR.MINOR.PATCH (ejemplo: 2.1.3)
+
+**MAJOR:** Cambia cuando se hacen modificaciones incompatibles con versiones
+anteriores. Indica un cambio que "rompe" la compatibilidad con versiones previas.
+Ejemplo: pasar de 1.4.2 a 2.0.0
+
+**MINOR:** Cambia cuando se agrega nueva funcionalidad que sí es compatible
+con la versión anterior. No rompe nada existente.
+Ejemplo: pasar de 1.4.2 a 1.5.0
+
+**PATCH:** Cambia cuando se corrigen errores o bugs sin agregar funcionalidad
+nueva. Son cambios mínimos de corrección.
+Ejemplo: pasar de 1.4.2 a 1.4.3
+
+### Evidencia
+![Limpieza](images/p6-limpieza.png)
+![Push tags](images/p6-tags.png)
