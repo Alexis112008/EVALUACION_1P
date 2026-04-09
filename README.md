@@ -229,6 +229,11 @@ La revisión de un PR es importante porque garantiza que el código nuevo no
 introduzca errores en la rama principal. Permite que el equipo valide la
 lógica, el estilo y la funcionalidad antes de hacer el merge.
 
+### Respuesta tercera pregunta del PR
+Durante la revisión de un PR se validan aspectos como: corrección del código,
+cumplimiento de estándares, que no se rompan funcionalidades existentes,
+claridad de los commits y que la documentación esté actualizada.
+
 ---
 
 ## Pregunta 5 (2 puntos)
