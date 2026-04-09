@@ -265,7 +265,41 @@ claridad de los commits y que la documentación esté actualizada.
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 5 -->
+
+### ¿Qué es un conflicto en Git?
+Un conflicto ocurre cuando dos ramas modifican el mismo archivo en el mismo
+lugar y Git no puede decidir automáticamente cuál cambio conservar. En este
+caso ocurrió porque ramaA y ramaB crearon el mismo archivo archivoA.txt con
+contenido diferente, y al intentar fusionarlas Git no supo cuál versión usar.
+
+### Procedimiento completo
+
+**Creación de ramas:**
+Se crearon ramaA y ramaB desde develop. En cada una se creó archivoA.txt
+con contenido diferente (Contenido A y Contenido B respectivamente).
+
+**Generación del conflicto:**
+Al ejecutar `git merge ramaB` desde ramaA, Git detectó que el mismo archivo
+tenía cambios incompatibles y marcó el conflicto con los símbolos
+<<<<<<< HEAD, ======= y >>>>>>>.
+
+**Resolución del conflicto:**
+Se editó manualmente archivoA.txt eliminando los marcadores y combinando
+ambos contenidos. Luego se hizo commit de la resolución.
+
+**Merge hacia develop:**
+Se fusionó ramaA en develop y se subió al repositorio remoto.
+
+**Eliminación de ramas:**
+Se eliminaron ramaA y ramaB tanto local como remotamente.
+
+### Enlace al Pull Request
+[URL del PR aquí]
+
+### Evidencia
+![Conflicto](images/p5-conflicto.png)
+![Resolución](images/p5-resolucion.png)
+![Pull Request](images/p5-pr.png)
 
 ---
 
